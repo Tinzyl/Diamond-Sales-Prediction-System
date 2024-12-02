@@ -21,29 +21,29 @@ This repository features a **Diamond Sales Prediction System**, leveraging **mac
 
 **Data Cleaning**:
 
--- Identified and removed duplicate rows.
+- Identified and removed duplicate rows.
 
--- Addressed missing values using mean imputation.
--- Filtered extreme outliers using interquartile range (IQR).
--- Exploratory Data Analysis (EDA):
--- Visualized correlations with a heatmap.
--- Examined feature distributions using scatter plots for attributes like carat_weight, meas_length, and meas_width.
+- Addressed missing values using mean imputation.
+- Filtered extreme outliers using interquartile range (IQR).
+- Exploratory Data Analysis (EDA):
+- Visualized correlations with a heatmap.
+- Examined feature distributions using scatter plots for attributes like carat_weight, meas_length, and meas_width.
 
 **Feature Selection**:
 
--- Selected high-correlation features for model input.
--- Used carat_weight, cut_quality, clarity, color, and measurement parameters.
+- Selected high-correlation features for model input.
+- Used carat_weight, cut_quality, clarity, color, and measurement parameters.
 
 **Model Building**:
 
--- Built Random Forest and Linear Regression models for baseline predictions.
+- Built Random Forest and Linear Regression models for baseline predictions.
 
 **Evaluation**:
 
--- Compared model performance using Mean Squared Error (MSE).
--- Visualized the predicted vs. actual sales for insights.
+- Compared model performance using Mean Squared Error (MSE).
+- Visualized the predicted vs. actual sales for insights.
 
 📊 **Results**
 
--- Random Forest: MSE = 2.10e+08
+- Random Forest: MSE = 2.10e+08
 
